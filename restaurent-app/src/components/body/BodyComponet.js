@@ -13,7 +13,7 @@ const BodyComponet = () => {
     <div>
       <Switch>
         <Route path="/home"  exact Component={<Home/>} />
-        <Route path="menu" exact Component={<Menu/>} />
+        <Route path="/menu" exact Component={<Menu/>} />
         <Route path="/contact" exact Component={<Contact/>} />
         <Route path="/about" exact Component={<About/>} />
         <Redirect from='/' to='/home'/>
