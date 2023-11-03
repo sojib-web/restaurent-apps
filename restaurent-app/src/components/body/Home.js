@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
+import Loading from '../body/loading'
 
-export class Home extends Component {
+class Home extends Component {
   render() {
     document.title ='Bohubrhi Restaurent'
     return (
-      <div>Home</div>
+      <div>
+        <Loading />
+      </div>
     )
   }
 }
 
-export default Home
+export default Home;

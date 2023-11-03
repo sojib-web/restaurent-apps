@@ -6,6 +6,7 @@ const previewComments = comments.map((c) =>{
     return ( <div key={c.id}>
         <h5>{c.author}</h5>
         <p>{c.comment}</p>
+        <p>Rating: {c.rating}</p>
         <p>{dateformat(c.date,'ddd mmm dd yyyy')}</p>
 
         </div>);
