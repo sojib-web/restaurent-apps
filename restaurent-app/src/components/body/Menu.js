@@ -39,7 +39,7 @@ class Menu extends Component {
             modalOpen: !this.state.modalOpen
         })
     }
-componentDidMount (){
+componentDidMount() {
     this.props.fetchDishes();
 }
     render() {
